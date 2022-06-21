@@ -48,7 +48,7 @@ partnerRouter.route('/:partnerId')
 })
 
 .delete((req, res) => {
-    res.end(`Deleting campsite ${req.params.partnerId}`);
+    res.end(`Deleting partners ${req.params.partnerId}`);
 });
 
 module.exports = partnerRouter;
